@@ -161,5 +161,63 @@ body{
         }
     }
 
+    .works-section{
+        margin-top: 2em;
+        h1{
+            font-family: 'branchregular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            color: #fff;
+        }
+
+        p{
+            margin-top: 1.5em;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 9px;
+            color: #fff;
+        }
+
+        .my-works{
+            display: flex;
+            justify-content: space-around;
+            margin-top: .5em;
+
+            .work{
+                flex: 1;
+                background-color: #fff;
+                width: 50px;
+                height: 137px;
+                margin: 5px;
+                transition: 0.5s;
+                filter: brightness(50%);
+
+                &:hover{
+                    flex: 1 1 50%;
+                    filter: none;
+                }
+                
+            }
+        }
+
+        .works-git{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 250;
+            font-size: 8px;
+            text-transform: uppercase;
+        }
+
+        .works-git2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 8px;
+            text-transform: uppercase;
+        }
+    }
+
     
 }
