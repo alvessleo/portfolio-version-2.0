@@ -27,6 +27,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body{
@@ -184,6 +185,8 @@ body{
             display: flex;
             justify-content: space-around;
             margin-top: .5em;
+            margin-bottom: -6px;
+            margin-left: -5px;
 
             .work{
                 flex: 1;
@@ -208,15 +211,21 @@ body{
             font-weight: 250;
             font-size: 8px;
             text-transform: uppercase;
+            
         }
 
-        .works-git2{
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 8px;
-            text-transform: uppercase;
+        a{
+            text-decoration: none;
+            .works-git2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 8px;
+                text-transform: uppercase;
+                margin-top: -.1em;
+            }
         }
+        
     }
 
     
