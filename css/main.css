@@ -19,7 +19,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
@@ -255,6 +254,54 @@ body {
   transform: scaleX(0);
 }
 .wrapper .about-section hr {
+  height: 0.5px;
+  background-color: #fff;
+  border: none;
+}
+.wrapper .work-together-section {
+  margin-top: 2em;
+}
+.wrapper .work-together-section h1 {
+  font-family: "branchregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.wrapper .work-together-section button {
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 0.5em;
+  padding: 5px 15px;
+  margin-bottom: 2em;
+}
+.wrapper .work-together-section .socials {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 0.4em;
+  font-weight: 200;
+  display: flex;
+  margin-bottom: 0.5em;
+}
+.wrapper .work-together-section .socials .header {
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 2em;
+}
+.wrapper .work-together-section .socials a {
+  text-decoration: none;
+}
+.wrapper .work-together-section .socials a p {
+  color: rgb(208, 208, 208);
+  margin-right: 1em;
+}
+.wrapper .work-together-section hr {
   height: 0.5px;
   background-color: #fff;
   border: none;
