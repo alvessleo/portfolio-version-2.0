@@ -407,3 +407,66 @@ body{
         }
     }
 }
+
+
+// RESPONSIVIDADE
+
+@media only screen and (min-width: 425px) {
+    .wrapper{
+        .hero-section{
+            .main-typo{
+                p{
+                    font-size: 1em;
+                    margin-bottom: 0.5em;
+        
+                    &:nth-of-type(2){
+                        font-weight: 300;
+                        font-size: .9em;
+                        text-transform: capitalize;
+                        letter-spacing: 0em;
+                        margin-top: 1.5em;
+                        max-width: 320px;
+                    }
+                }
+        
+                h1{
+                    font-family: 'branchregular';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 2.7em;
+                }
+            }
+        }
+
+        .works-section{
+            h1{
+                font-size: 2.7em;
+            }
+    
+            p{
+                max-width: 320px;
+            }
+
+            .my-works{
+                .work{
+                    width: 50px;
+                    height: 170px;
+                    
+                }
+            }
+
+        }
+
+        .about-section{
+            h1{
+                font-size: 2.7em;
+            }
+        }
+
+        .work-together-section{
+            h1{
+                font-size: 2.7em;
+            }
+        }
+    }
+}
